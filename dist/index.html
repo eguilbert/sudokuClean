@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="robots" content="noindex, nofollow">
+    <title>Sudoku</title>
+    <meta name="description" content="A Javascript implementation of a Sudoku puzzle with a backtracking algorithm.">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    
+    
+
+  <link href="main.css" rel="stylesheet"></head>
+  <body class="flat">
+    <div class="se-pre-con" style="position:fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(assets/img/Preloader_3.gif) center no-repeat #fff;"></div>
+<h1>Sudoku</h1>
+    <div class="wrap-container">
+
+      
+      <div class="design">
+        <button type="button" name="button" id="mode-flowers"></button>
+        <button type="button" name="button" id="mode-cat"></button>
+        <button type="button" name="button" id="mode-licorne"></button>
+        <button type="button" name="button" id="mode-asia"></button>
+        <button type="button" name="button" id="mode-night"></button>
+        <button type="button" name="button" id="mode-cul"></button>
+        <button type="button" name="button" id="mode-sushi"></button>
+
+      </div>
+      <div id="menu" class="sudoku-menu">
+        <div class="levels">
+          <p>Choisir le niveau de difficulté</p>
+          <div class="options-game">
+            <button id="help" alt="Comment jouer"><span>Aide</span> </button>
+            <button type="button" name="button" id="new-game">Nouvelle partie</button>
+            <div class="levels-options">
+              <button id="create-easy" class="level easy">Facile</button>
+              <button id="create-medium" class="level medium">Moyen</button>
+              <button id="create-hard" class="level difficult">Difficile</button>
+              <button id="no-new-level" class="level">Annuler</button>
+            </div>
+          </div>
+        </div>
+        
+
+  		</div>
+  		<div id="container"></div>
+      <div class="wheel">
+        <div class="numbers">
+          <button class="wheel-btn" id="num-1">1 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-2">2 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-3">3 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-4">4 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-5">5 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-6">6 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-7">7 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-8">8 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-9">9 <span class="left"></span></button>
+          <button class="wheel-btn" id="num-0">X</button>
+        </div>
+      </div>
+      <div id="tools">
+        <button id="restartGrid" disabled="disabled" alt="Refaire cette grille"><span>Recommencer la grille</span> </button>
+        <button id="showSolution" disabled="disabled" alt="Montrer la solution"><span>Montrer la solution</span> </button>
+        
+        
+
+        <div class="switch-container">
+          <span class="titre">NOTES</span>
+          <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+            <label class="onoffswitch-label" for="myonoffswitch">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  <script type="text/javascript" src="main.js"></script></body>
+</html>
