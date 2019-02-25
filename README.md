@@ -1,3 +1,5 @@
+[![BrowserStack Status](https://automate.browserstack.com/automate/badge.svg?badge_key=zWSuBX4PAYj7tdzcRREF)](https://www.browserstack.com/automate/public-build/zWSuBX4PAYj7tdzcRREF)
+
 # editorial-app-sudoku
 
 Nouvelle version de Sudoku 
